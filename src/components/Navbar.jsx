@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <div className="bg-black/80 sticky top-0 z-50">
-      <div className="flex justify-between items-center py-[20px] max-w-[1240px] mx-auto px-4 text-white">
+      <div className="flex justify-between items-center xs:py-[0px] md:py-[20px] max-w-[1240px] mx-auto px-4 text-white">
         <h1 className="text-3xl font-bold text-[#00df9a] cursor-pointer">
           LOGIK.
         </h1>
@@ -53,18 +53,24 @@ function Navbar() {
             {!nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
           </div>
           <ul className=" uppercase w-full">
+          <Link to="hero" smooth={true} offset={-100} duration={500}>
             <li className="px-4 my-6 cursor-pointer hover:text-gray-400">Home</li>
+          </Link>
+          <Link to="About" smooth={true} offset={-100} duration={500}>
             <li className="px-4 my-6 cursor-pointer hover:text-gray-400">
-              Company
+              About
             </li>
-            <li className="px-4 my-6 cursor-pointer hover:text-gray-400">
-              Resources
-            </li>
+          </Link>
+          <Link to="Cards" smooth={true} offset={30} duration={500}>
             <li className="px-4 my-6 cursor-pointer hover:text-gray-400">
               Pricing
             </li>
+          </Link>
             <li className="px-4 my-6 cursor-pointer hover:text-gray-400">
-              Documentation
+              Commerce
+            </li>
+            <li className="px-4 my-6 cursor-pointer hover:text-gray-400">
+              Logs
             </li>
             <li className="px-4 my-6 cursor-pointer hover:text-gray-400">
               Guides

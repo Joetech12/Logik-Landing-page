@@ -5,7 +5,7 @@ function Newsletter() {
     <div className="text-white pt-20 pb-20 lg:pt-20 lg:pb-0 px-4">
       <div className="max-w-[1240px] mx-auto h-[300px] md:h-[200px] flex flex-col items-center md:grid justify-center md:items-start md:grid-cols-3 md:grid-cols-2">
         <div className="md:col-span-2 flex flex-col ">
-          <p className="font-bold text-3xl py-3 text-center md:text-left text-[40px] mb-[10px]">
+          <p className="font-bold text-3xl py-3 text-center md:text-left text-[40px] mb-[10px] xs:leading-[50px]">
           Not finding the right Data?
           </p>
           <p className="text-center md:text-left text-lg font-medium">

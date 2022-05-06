@@ -7,7 +7,7 @@ import Card from "./Card";
 function Cards() {
   return (
     <div name="Cards" className="w-full py-[5rem] md:py-[10rem]  px-4 bg-white">
-      <div className="max-w-[1240px] mx-auto text-center justify-center flex flex-col items- md:flex-row ">
+      <div className="max-w-[1240px] mx-auto text-center justify-center flex flex-col items-center md:flex-row ">
         <Card
           image={Single}
           user="Single User"

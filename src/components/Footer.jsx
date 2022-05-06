@@ -12,11 +12,11 @@ function Footer() {
     <div className="text-white pb-10 pt-20 px-4">
       <div className="max-w-[1240px] mx-auto h-[300px] md:h-[200px] flex flex-col items-center">
         <div className="flex flex-col md:flex-row">
-          <div className="flex flex-col md:items-start items-center mb-[50px] md:mb-0">
+          <div className="flex flex-col md:items-start items-center mb-[50px] md:mb-0 ">
             <p className="text-2xl font-bold text-[#00df9a] cursor-pointer">
               LOGIK.
             </p>
-            <p className="max-w-[400px] my-5 text-center md:text-left max-w-[370px]">
+            <p className="max-w-[400px] my-5 text-center md:text-left max-w-[370px] xs:px-[40px] md:px-[0px]">
             We have decades of experience building data systems for clients large and small. Our team of talented developers and managers can help you to design, build or enhance your data project.
             </p>
             <div className="flex justify-even">
@@ -27,8 +27,8 @@ function Footer() {
               <FaDribbbleSquare size={30} className="mr-3 cursor-pointer" />
             </div>
           </div>
-          <div className="grow flex mx-5">
-            <div className="grow px-10">
+          <div className=" flex mx-5">
+            <div className="grow xs:px-[10px] sm:px-10">
               <p className="mb-4 font-bold">Solutions</p>
               <p className="mb-2 cursor-pointer hover:text-gray-400">
                 Analytics
@@ -43,18 +43,18 @@ function Footer() {
                 Insights
               </p>
             </div>
-            <div className="grow px-10">
+            <div className="grow xs:px-[10px] sm:px-10">
               <p className="mb-4 font-bold">Support</p>
               <p className="mb-2 cursor-pointer hover:text-gray-400">Pricing</p>
               <p className="mb-2 cursor-pointer hover:text-gray-400">
-                Documentation
+                Logs
               </p>
               <p className="mb-2 cursor-pointer hover:text-gray-400">Guides</p>
               <p className="mb-2 cursor-pointer hover:text-gray-400">
                 API Status
               </p>
             </div>
-            <div className="grow px-10">
+            <div className="grow xs:px-[10px] sm:px-10">
               <p className="mb-4 font-bold">Company</p>
               <p className="mb-2 cursor-pointer hover:text-gray-400 hover:text-gray-400">
                 About Us

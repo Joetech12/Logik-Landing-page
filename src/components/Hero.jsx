@@ -17,18 +17,18 @@ function Hero() {
             muted
           />
         </div>
-        <div className="flex flex-col justify-center items-center z-20 w-full h-full absolute top-0">
+        <div className="flex flex-col justify-center items-center z-20 w-full h-full absolute top-[-70px] px-[20px]">
           {/* <p className="text-[#00df9a] font-bold md:text-2xl italic">
             No. 1 Data Hub in Nigeria
           </p> */}
-          <h1 className="md:text-7xl text-6xl font-bold md:py-6 py-4">
+          <h1 className="xs:text-6xl md:text-7xl font-bold md:py-6 py-4 text-center">
             Grow with Data
           </h1>
-          <p className="md:text-5xl  text-3xl font-bold">
-            A Data & AI Platform for{" "}
+          <p className="md:text-5xl  text-3xl font-bold text-center">
+            Platform for{" "}
             <span>
               <Typed
-                strings={["BTB", "BTC", "SASG"]}
+                strings={["AI", "NFT", "BTC"]}
                 typeSpeed={120}
                 backSpeed={140}
                 loop

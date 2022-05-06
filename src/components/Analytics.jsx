@@ -10,10 +10,10 @@ function Analytics() {
           <p className="font-semibold text-[#00df9a] text-[24px]">
           Find, Share and Publish
           </p>
-          <h1 className="font-bold text-3xl py-3 text-center md:text-left text-[40px] mb-[10px]">
+          <h1 className="font-bold text-3xl py-3 text-center md:text-left text-[40px] mb-[10px] xs:leading-[50px]">
           Quality Data with LOGIK
           </h1>
-          <p className="text-center md:text-left">
+          <p className="text-center md:text-left max-w-[450px] xs:px-[20px] md:px-[20px]">
           At LOGIK, we have over thousands of datasets for free and a Premium Data Service for additional or customised data with guaranteed updates.
           </p>
           <button className="bg-black hover:bg-[#1e1e1e] w-[200px] rounded-md font-medium py-3 text-[#00df9a] mt-10">
